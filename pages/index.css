@@ -1,35 +1,9 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/logo.css);
+@import url(../blocks/lead.css);
+
 body {
-  background-color: #ffff;
-}
-.header {
-  max-width: 1280px;
-  height: 100%;
-  background-color: #2a2c2f;
-  margin: 0 auto;
-}
-.logo {
-  display: flex;
-  justify-content: center;
-}
-.lead {
-  display: flex;
-  justify-content: center;
-  flex-flow: column wrap;
-  color: #ffff;
-  max-width: 720px;
-  font-family: "Inter";
-  text-align: center;
-}
-.lead__title {
-  font-size: 96px;
-  font-weight: 900;
-  line-height: 100px;
-}
-.lead__subtitle {
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-}
-.lead__image {
-  max-width: 984px;
+  display: block;
+  margin: 0;
 }
