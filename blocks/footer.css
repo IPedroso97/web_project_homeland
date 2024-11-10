@@ -11,3 +11,13 @@
   text-align: center;
   margin: 0;
 }
+@media screen and (width: 544px) {
+  .footer__copyright {
+    line-height: 15px;
+  }
+}
+@media screen and (width: 320px) {
+  .footer__copyright {
+    line-height: 14px;
+  }
+}

@@ -6,32 +6,112 @@
   margin-top: 92px;
 }
 .intro__title {
-  width: 830px;
+  max-width: 830px;
   font-family: "Inter";
   font-size: 54px;
   font-weight: 900;
-  line-height: 58px;
+  line-height: 1.09;
 }
 .intro__subtitle {
-  width: 738px;
+  max-width: 738px;
   font-family: "Inter";
   font-size: 24px;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 1.42;
 }
 .intro__quote {
-  width: 732px;
+  max-width: 732px;
   font-family: "Inter";
   font-size: 24px;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 1.42;
   text-align: right;
 }
 .intro__text {
   max-width: 722px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
-  line-height: 26.08px;
+  line-height: 1.63;
   margin-bottom: 92px;
+}
+@media screen and (width: 1024px) {
+  .intro {
+    max-width: 760px;
+    margin: 91px 70px 0;
+  }
+  .intro__title {
+    max-width: 760px;
+    font-size: 48px;
+  }
+  .intro__subtitle {
+    max-width: 738px;
+  }
+  .intro__quote {
+    max-width: 732px;
+  }
+  .intro__text {
+    max-width: 722px;
+    margin-bottom: 90px;
+  }
+}
+@media screen and (width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin: 90px 24px 0;
+  }
+  .intro__title {
+    max-width: 707px;
+    font-size: 45px;
+  }
+  .intro__subtitle {
+    max-width: 720px;
+  }
+  .intro__quote {
+    max-width: 720px;
+  }
+  .intro__text {
+    max-width: 722px;
+    margin-bottom: 88px;
+  }
+}
+@media screen and (width: 544px) {
+  .intro {
+    max-width: 520px;
+    margin: 76px 16px 0;
+  }
+  .intro__title {
+    max-width: 500px;
+    font-size: 40px;
+  }
+  .intro__subtitle {
+    max-width: 520px;
+  }
+  .intro__quote {
+    max-width: 520px;
+  }
+  .intro__text {
+    max-width: 522px;
+    margin-bottom: 70px;
+  }
+}
+@media screen and (width: 320px) {
+  .intro {
+    max-width: 288px;
+    margin: 64px 16px 0;
+  }
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+  }
+  .intro__subtitle {
+    max-width: 288px;
+  }
+  .intro__quote {
+    max-width: 288px;
+  }
+  .intro__text {
+    max-width: 288px;
+    margin-bottom: 64px;
+  }
 }

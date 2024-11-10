@@ -1,5 +1,6 @@
 .lead {
   display: flex;
+  max-width: 984px;
   flex-flow: column wrap;
   margin: 90px auto 0;
   align-items: center;
@@ -28,6 +29,12 @@
   margin: 64px 0 0;
 }
 @media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 984px;
+    margin: 90px auto 0;
+    align-items: center;
+    color: #ffffff;
+  }
   .lead__title {
     width: 650px;
     font-size: 85px;
@@ -65,7 +72,7 @@
     line-height: 44px;
   }
   .lead__subtitle {
-    width: 200px;
+    width: 440px;
     margin-top: 20px;
   }
   .lead__image {
@@ -78,16 +85,16 @@
     margin-top: 50px;
   }
   .lead__title {
-    width: 228px;
+    max-width: 228px;
     font-size: 40px;
     line-height: 44px;
   }
   .lead__subtitle {
-    width: 288px;
+    max-width: 288px;
     margin-top: 16px;
   }
   .lead__image {
-    width: 320px;
+    max-width: 320px;
     margin-top: 40px;
   }
 }
