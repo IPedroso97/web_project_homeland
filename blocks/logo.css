@@ -6,3 +6,27 @@
   width: 254px;
   margin: 34px auto 0;
 }
+@media screen and (width: 1024px) {
+  .logo__image {
+    width: 254px;
+    margin-top: 32px;
+  }
+}
+@media screen and (width: 768px) {
+  .logo__image {
+    width: 254px;
+    margin-top: 30px;
+  }
+}
+@media screen and (width: 544px) {
+  .logo__image {
+    width: 225px;
+    margin-top: 26px;
+  }
+}
+@media screen and (width: 320px) {
+  .logo__image {
+    width: 188px;
+    margin-top: 20px;
+  }
+}
