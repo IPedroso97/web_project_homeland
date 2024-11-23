@@ -5,4 +5,5 @@
 @font-face {
   font-family: "Inter";
   src: url(./fonts/Inter_18pt-Bold.ttf);
+  font-weight: bold;
 }
