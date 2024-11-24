@@ -2,7 +2,6 @@
   max-width: 830px;
   text-align: left;
   color: #fff;
-  margin-left: 148px;
   margin-top: 92px;
 }
 .intro__title {
@@ -38,7 +37,7 @@
 @media screen and (width: 1024px) {
   .intro {
     max-width: 760px;
-    margin: 91px 70px 0;
+    margin: 91px 0 0;
   }
   .intro__title {
     max-width: 760px;
