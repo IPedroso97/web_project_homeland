@@ -11,4 +11,5 @@ body {
   height: 100%;
   margin: 0 auto 0;
   background-color: #2a2c2f;
+  border: 2px #ff0000 solid;
 }
