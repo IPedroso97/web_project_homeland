@@ -44,7 +44,7 @@
   grid-column: -1;
   grid-row: 1;
   margin: 0;
-  object-fit: fill;
+  object-fit: cover;
 }
 .places__artists_title {
   font-family: Inter;
