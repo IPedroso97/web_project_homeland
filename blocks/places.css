@@ -30,10 +30,16 @@
 }
 .places__artists {
   display: flex;
-  flex-flow: row wrap;
-  align-items: flex-end;
+  flex-flow: column wrap;
+  justify-content: flex-end;
   max-width: 456px;
-
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px; /*alterar depois para responsividade*/
+  text-align: left;
+  text-underline-position: from-font;
+  color: #ffffff;
   grid-column: -1;
   grid-row: 1;
   margin: 0;
@@ -48,15 +54,6 @@
   text-underline-position: from-font;
   color: #aaaaaa;
   margin: 0 0 8px;
-}
-.places__artists_text {
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px; /*alterar depois para responsividade*/
-  text-align: left;
-  text-underline-position: from-font;
-  color: #ffffff;
 }
 .places__image {
   max-width: 460px;
