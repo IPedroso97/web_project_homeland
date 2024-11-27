@@ -8,14 +8,15 @@
 }
 .places__list {
   display: grid;
+  max-height: 832px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr) 0.5fr;
-  margin: 0;
+  grid-template-rows: repeat(2, 2fr) repeat(1, 4fr) 1fr;
+  margin: 0 0 80px;
   gap: 48px 20px;
 }
 .places__title {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   max-width: 460px;
   font-family: Inter;
   font-size: 72px;
@@ -43,6 +44,7 @@
   grid-column: -1;
   grid-row: 1;
   margin: 0;
+  object-fit: fill;
 }
 .places__artists_title {
   font-family: Inter;
@@ -60,7 +62,7 @@
   height: 460px; /* o height está sem responsividade pois a imagem de poa está com altura menor que as demais, se der problema, alterar*/
   grid-column: 1;
   grid-row: 2/4;
-  margin: 25px 0 25px;
+  margin: 0;
   border: 0;
   border-radius: 4px;
   box-shadow: 5px 5px 10px 0px #00000040;
@@ -70,6 +72,9 @@
   cursor: url(../images/pointer_cursor.png), auto;
 }
 .places__text {
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 25px;
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -80,7 +85,7 @@
   grid-column: -1;
   grid-row: 2/4;
   margin: 0;
-  padding: 161;
+  padding: 0;
 }
 .places__button {
   max-width: 356.8px;
