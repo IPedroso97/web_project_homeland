@@ -16,3 +16,6 @@ body {
 p {
   margin: 0;
 }
+.content {
+  max-width: 100%;
+}

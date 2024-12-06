@@ -1,3 +1,7 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
 .places {
   max-width: 984px;
   height: 100%;
@@ -63,7 +67,6 @@
   grid-row: 2;
   margin: 0;
   border: 0;
-  border-radius: 4px;
   box-shadow: 5px 5px 10px 0px #00000040;
   object-fit: cover;
 }
@@ -97,7 +100,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 21.78px; /*alterar depois para responsividade*/
-  text-align: left;
+  text-align: center;
   text-underline-position: from-font;
   color: #ffffff;
   border: 0;
@@ -229,6 +232,7 @@
     max-width: 320px;
     grid-column: 1;
     grid-row: 3;
+    box-shadow: none;
   }
   .places__text {
     max-width: 288px;
