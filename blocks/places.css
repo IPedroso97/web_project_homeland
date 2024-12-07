@@ -96,7 +96,7 @@ ul {
   max-width: 356.8px;
   height: 48px;
   grid-area: button;
-  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99%);
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
