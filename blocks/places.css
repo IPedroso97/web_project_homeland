@@ -31,7 +31,7 @@ ul {
   font-family: Inter;
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px; /*alterar depois para responsividade*/
+  line-height: 1.06;
   text-align: left;
   text-underline-position: from-font;
   color: #ffffff;
@@ -46,7 +46,7 @@ ul {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px; /*alterar depois para responsividade*/
+  line-height: 1.2;
   text-align: left;
   text-underline-position: from-font;
   color: #ffffff;
@@ -57,7 +57,7 @@ ul {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
-  line-height: 14.52px; /*alterar depois para responsividade*/
+  line-height: 1.2;
   letter-spacing: 0.12em;
   text-align: left;
   text-underline-position: from-font;
@@ -84,7 +84,7 @@ ul {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  line-height: 29.34px; /*alterar depois para responsividade*/
+  line-height: 1.6;
   text-align: left;
   text-underline-position: from-font;
   color: #ffffff;
@@ -100,7 +100,7 @@ ul {
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
-  line-height: 21.78px; /*alterar depois para responsividade*/
+  line-height: 1.2;
   text-align: center;
   text-underline-position: from-font;
   color: #ffffff;
@@ -263,13 +263,11 @@ ul {
     max-width: 288px;
     max-height: 70px;
     font-size: 32px;
-    line-height: 35px;
     margin: 0 16px 0;
   }
   .places__artists {
     max-width: 288px;
     font-size: 18px;
-    line-height: 22px;
     margin: 0 16px 0;
   }
   .places__artists_title {
@@ -284,13 +282,12 @@ ul {
     max-width: 288px;
     max-height: 260px;
     font-size: 16px;
-    line-height: 26.08px;
     margin: 0 16px 0;
   }
   .places__button {
     max-width: 288px;
     font-size: 14px;
-    line-height: 16.94px;
+
     margin: 0 16px 0;
   }
 }
