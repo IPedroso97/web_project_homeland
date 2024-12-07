@@ -25,7 +25,7 @@
   align-items: flex-end;
   max-width: 460px;
   font-family: Inter;
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 900;
   line-height: 1.06;
   text-align: left;
@@ -40,7 +40,7 @@
   justify-content: flex-end;
   max-width: 456px;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.2;
   text-align: left;
@@ -51,7 +51,7 @@
 }
 .places__artists_title {
   font-family: Inter;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.12em;
@@ -79,7 +79,7 @@
   flex-flow: row wrap;
   row-gap: 25px;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.6;
   text-align: left;
@@ -95,7 +95,7 @@
   grid-area: button;
   background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.2;
   text-align: center;
@@ -121,21 +121,21 @@
   }
   .places__title {
     max-width: 400px;
-    font-size: 58px;
+    font-size: 3.625rem;
   }
   .places__artists {
     max-width: 400px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   .places__artists_title {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .places__image {
     max-width: 400px;
   }
   .places__text {
     max-width: 400px;
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -148,21 +148,21 @@
   }
   .places__title {
     max-width: 340px;
-    font-size: 42px;
+    font-size: 2.625rem;
   }
   .places__artists {
     max-width: 352px;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .places__artists_title {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .places__image {
     max-width: 340px;
   }
   .places__text {
     max-width: 352px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   .places__button {
     max-width: 355px;
@@ -199,16 +199,16 @@
   }
   .places__title {
     max-width: 510px;
-    font-size: 61px;
+    font-size: 3.8125rem;
     margin: 0 27px 0;
   }
   .places__artists {
     max-width: 510px;
-    font-size: 31px;
+    font-size: 1.9375rem;
     margin: 0 27px 0;
   }
   .places__artists_title {
-    font-size: 21px;
+    font-size: 1.3125rem;
     margin: 0;
   }
   .places__image {
@@ -216,7 +216,7 @@
   }
   .places__text {
     max-width: 510px;
-    font-size: 27px;
+    font-size: 1.6875rem;
     margin: 0 27px 0;
   }
   .places__button {
@@ -256,16 +256,16 @@
   .places__title {
     max-width: 288px;
     max-height: 70px;
-    font-size: 32px;
+    font-size: 2rem;
     margin: 0 16px 0;
   }
   .places__artists {
     max-width: 288px;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 0 16px 0;
   }
   .places__artists_title {
-    font-size: 12px;
+    font-size: 0.75rem;
     margin: 0;
   }
   .places__image {
@@ -275,12 +275,12 @@
   .places__text {
     max-width: 288px;
     max-height: 260px;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0 16px 0;
   }
   .places__button {
     max-width: 288px;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin: 0 16px 0;
   }
 }
