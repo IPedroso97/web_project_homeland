@@ -203,13 +203,11 @@ ul {
   .places__title {
     max-width: 510px;
     font-size: 61px;
-    line-height: 60px;
     margin: 0 27px 0;
   }
   .places__artists {
     max-width: 510px;
     font-size: 31px;
-    line-height: 37px;
     margin: 0 27px 0;
   }
   .places__artists_title {
@@ -222,7 +220,6 @@ ul {
   .places__text {
     max-width: 510px;
     font-size: 27px;
-    line-height: 44.33px;
     margin: 0 27px 0;
   }
   .places__button {
@@ -287,7 +284,6 @@ ul {
   .places__button {
     max-width: 288px;
     font-size: 14px;
-
     margin: 0 16px 0;
   }
 }
