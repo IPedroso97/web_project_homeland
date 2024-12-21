@@ -1,6 +1,5 @@
 .places {
   max-width: 984px;
-  height: 100%;
   border: 2px #fff solid;
   margin: 0 auto 0;
   list-style-type: none;
@@ -10,7 +9,6 @@
   width: 100%;
   display: grid;
   max-width: 100%;
-  max-height: 832px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
@@ -63,7 +61,6 @@
 .places__image {
   max-width: 460px;
   width: 100%;
-  height: 100%;
   grid-area: image;
   margin: 0;
   border: 0;
@@ -93,7 +90,7 @@
   max-width: 356.8px;
   height: 48px;
   grid-area: button;
-  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   font-family: Inter;
   font-size: 1.125rem;
   font-weight: 600;
@@ -110,6 +107,11 @@
 .places__button:hover {
   opacity: 25%;
   cursor: url(../images/pointer_cursor.png), auto;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
 }
 @media screen and (max-width: 1024px) {
   .places {
@@ -174,7 +176,6 @@
     margin: 0;
   }
   .places__list {
-    max-height: 100%;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
@@ -230,7 +231,6 @@
     margin: 0;
   }
   .places__list {
-    max-height: 100%;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
@@ -255,7 +255,6 @@
   }
   .places__title {
     max-width: 288px;
-    max-height: 70px;
     font-size: 2rem;
     margin: 0 16px 0;
   }
@@ -274,7 +273,6 @@
   }
   .places__text {
     max-width: 288px;
-    max-height: 260px;
     font-size: 1rem;
     margin: 0 16px 0;
   }
